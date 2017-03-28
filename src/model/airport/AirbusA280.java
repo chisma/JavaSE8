@@ -16,7 +16,7 @@ public class AirbusA280 extends Flight implements FlightInterface{
 	{
 		super();
 		
-		carrierthis.getCarrierType(); 
+		//carrierthis.getCarrierType(); 
 	}
 
 	@Override
