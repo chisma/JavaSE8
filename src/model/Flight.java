@@ -15,7 +15,7 @@ public abstract class Flight implements FlightInterface{
 	private String carrierType;
 	//private HashMap<String, ArrayList<Seat>> seatMap;
 	private String flightDetails;
-	private ArrayList<Seat> listOfAvailableSeats;
+	
 	
 		
 	public Category getServiceCategory() {
@@ -59,9 +59,6 @@ public abstract class Flight implements FlightInterface{
 	*/	this.listOfAvailableSeats = seatList;
 	}
 
-	public String getSeatMap() {
-		return seatMap.keySet().toString() + " " + flightDetails;
-	}
 	
 	public int getId() {
 		return id;
